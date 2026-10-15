@@ -1,4 +1,3 @@
-LICENSE
 README.md
 setup.py
 xing/__init__.py
@@ -78,10 +77,14 @@ xing/plugins/noauth/Apollo_Adminservice_noauth.py
 xing/plugins/noauth/DockerRemoteAPI_noauth.py
 xing/plugins/noauth/Druid_noauth.py
 xing/plugins/noauth/Elasticsearch_noauth.py
+xing/plugins/noauth/Etcd_noauth.py
 xing/plugins/noauth/Hadoop_YARN_RPC_noauth.py
 xing/plugins/noauth/Headless_remote_API_noauth.py
 xing/plugins/noauth/Kibana_noauth.py
+xing/plugins/noauth/Konnectivity_proxy_noauth.py
+xing/plugins/noauth/Kubelet_noauth.py
 xing/plugins/noauth/Memcached_noauth.py
+xing/plugins/noauth/Milvus_noauth.py
 xing/plugins/noauth/Mongodb_noauth.py
 xing/plugins/noauth/Nacos_noauth.py
 xing/plugins/noauth/Onlyoffice_noauth.py

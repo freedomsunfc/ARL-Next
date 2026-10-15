@@ -175,7 +175,7 @@ class Config(object, metaclass=ConfigMeta):
 
 
 try:
-    with open(os.path.join(basedir, 'config.yaml')) as f:
+    with open(os.path.join(basedir, 'config.yaml'), encoding='utf-8') as f:
         y = yaml.load(f, Loader=yaml.SafeLoader)
 
     Config.MONGO_URL = y["MONGO"]["URI"]
